@@ -166,7 +166,7 @@ export default {
                PS +
                String.fromCharCode(0x00) +
                T;
-      return new BigInteger(util.hexstrdump(EM), 16);
+      return EM;
     }
   }
 };
